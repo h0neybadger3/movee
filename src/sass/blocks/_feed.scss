@@ -1,0 +1,43 @@
+.feed {
+    background-color: #FED100;
+    padding-top: 90px;
+    padding-bottom: 117px;
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 250px;
+        margin-top: 60px;
+        width: 1304px;
+    }
+    &__item {
+        width: 265px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    &__subtitle {
+        font-weight: 500;
+        font-size: 24px;
+        color: #0d0d0d;
+    }
+    &__date {
+        font-size: 16px;
+        font-weight: 300;
+        margin-top: 10px;
+    }
+    &__text {
+        font-size: 16px;
+        line-height: 21px;
+        font-weight: 300;
+        color: $main-color;
+        margin-top: 23px;
+        height: 147px;
+        width: 380px;
+    }
+    &__btn {
+        display: block;
+        margin: 0 auto;
+        padding-top: 60px;
+        text-align: center;
+    }
+}
