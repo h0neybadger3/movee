@@ -3,4 +3,9 @@
     font-size: 30px;
     text-align: center;
     color: $main-color;
+    margin: 0;
+    &__subtitle {
+        font-size: 24px;
+        margin-top: 15px;
+    }
 }
