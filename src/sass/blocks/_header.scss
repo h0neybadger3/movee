@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    a {
+        text-decoration: none;
+    }
+    &__menu {
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        &__link {
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 22px;
+            color: $main-color;
+        }
+    }
+    &__item {
+        padding-right: 56px;
+        &:last-child {
+            padding-right: none;
+        }
+    }
+    &__logo {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 37px;
+        color: $main-color;
+        text-transform: uppercase;
+    }
+    &__phone {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        color: $main-color;
+    }
+}
