@@ -1,0 +1,70 @@
+.carpark {
+    padding-top: 35px;
+    &__tabs {
+        margin-top: 60px;
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0;
+        padding-left: 0;
+    }
+    &__tab {
+        width: 201px;
+        height: 50px;
+        border: 1px solid #EBEBEB;
+        color: $main-color;
+        font-size: 20px;
+        font-weight: 500;
+        text-align: center;
+        line-height: 48px;
+        margin: 0 19px;
+        cursor: pointer;
+        transition: 0.5s all;
+        &:hover {
+            box-shadow: 3px 3px 20px #FED100;
+        }
+        &_active {
+            border: 1px solid #FED100;
+        }
+    }
+    &__slider {
+        margin-top: 47px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__subtitle {
+        font-weight: 500;
+        font-size: 24px;
+        color: $main-color;
+    }
+    &__items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 200px;
+        height: 300px;
+    }
+    &__item {
+        margin-top: 27px;
+    }
+    img {
+        margin-right: 15px;
+    }
+    &__arrow {
+        border: solid $main-color;
+        border-width: 0 3px 3px 0;
+        display: inline-block;
+        padding: 3px;
+        cursor: pointer;
+        &_left {
+            transform: rotate(135deg);
+            -webkit-transform: rotate(135deg);
+        }
+        &_right {
+            transform: rotate(-45deg);
+            -webkit-transform: rotate(-45deg);
+        }
+    }
+}
