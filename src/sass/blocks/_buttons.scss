@@ -8,7 +8,7 @@
     text-transform: uppercase;
     color: #F2F2F2;
     cursor: pointer;
-    &__order {
+    &_order {
         width: 250px;
         height: 50px;
         background: #FED100;
@@ -16,7 +16,7 @@
         font-size: 20px;
         color: $main-color;
     }
-    &__car {
+    &_car {
         width: 250px;
         height: 50px;
         background: #FED100;
@@ -25,7 +25,7 @@
         color: $main-color;
         margin-top: 35px;
     }
-    &__continue {
+    &_continue {
         width: 152px;
         height: 21px;
         background-color: #FED100;
@@ -39,7 +39,7 @@
         transform: translateX(-8px);
         text-decoration: underline;
     }
-    &__feed {
+    &_feed {
         width: 250px;
         height: 50px;
         background: #FED100;
@@ -48,5 +48,13 @@
         font-size: 20px;
         color: $main-color;
         border: 1px solid $main-color;
+    }
+    &_submit {
+        width: 250px;
+        height: 50px;
+        background: #FF352B;
+        text-transform: none;
+        font-weight: 500;
+        font-size: 20px;
     }
 }

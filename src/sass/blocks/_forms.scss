@@ -1,0 +1,15 @@
+.order-form {
+    margin-top: 47px;
+    display: flex;
+    justify-content: space-between;
+    input {
+        height: 34px;
+        border: 0;
+        border-bottom: 1px solid $main-color;
+        outline: 0;
+        color: $main-color;
+        font-size: 20px;
+        font-weight: 500;
+        width: 300px;
+    }
+}
