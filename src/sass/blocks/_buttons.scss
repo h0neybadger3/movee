@@ -39,7 +39,8 @@
         transform: translateX(-8px);
         text-decoration: underline;
     }
-    &_feed {
+    &_feed,
+    &_callback {
         width: 250px;
         height: 50px;
         background: #FED100;

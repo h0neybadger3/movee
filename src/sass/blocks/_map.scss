@@ -1,0 +1,54 @@
+.map {
+    height: 666px;
+    position: relative;
+    &__info {
+        position: absolute;
+        top: 162px;
+        left: 439px;
+        width: 368px;
+        height: 326px;
+        background-color: #FFFFFF;
+        padding: 40px 35px 15px 35px;
+        margin-bottom: 40px;
+        border: 1px solid $main-color;
+    }
+    &__addr {
+        margin-bottom: 19px;
+        color: $main-color;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 21px;
+    }
+    &__phone {
+        display: block;
+        margin-bottom: 20px;
+        color: $main-color;
+        font-size: 16px;
+        line-height: 21px;
+        font-weight: 300;
+    }
+    &__email {
+        display: block;
+        margin-bottom: 57px;
+        color: $main-color;
+        font-size: 15px;
+        line-height: 21px;
+        font-weight: 300;
+    }
+    &__social-item {
+        display: flex;
+        align-items: center;
+        margin: 0 15px;
+    }
+    &__social {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 181px;
+    }
+    iframe {
+        width: 100%;
+        height: 666px;
+        border: none;
+    }
+}
